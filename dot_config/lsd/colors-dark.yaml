@@ -1,0 +1,10 @@
+date:
+  hour-old: 40
+  day-old: 42
+  older: 36
+
+size:
+  none: 245
+  small: 229
+  medium: 216
+  large: 172
