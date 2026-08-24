@@ -5,15 +5,13 @@ local config = wezterm.config_builder and wezterm.config_builder() or {}
 -- Default shell
 config.default_prog = { 'pwsh.exe', '-NoLogo' }
 
--- Starting directory
-config.default_cwd = 'C:\\Users\\andreas.niklasson\\git-repositories'
-
 -- Window size (matches initialCols/initialRows)
 config.initial_cols = 140
 config.initial_rows = 30
 
 -- Font (FiraCode NF with Symbols Nerd Font as fallback for missing glyphs)
-config.font = wezterm.font_with_fallback({ 'FiraCode NF', 'Symbols Nerd Font Mono' })
+config.font = wezterm.font('FiraCode Nerd Font Mono Light')
+-- config.font = wezterm.font_with_fallback({ 'FiraCode NF', 'Symbols Nerd Font Mono' })
 config.font_size = 12
 
 -- Let fonts render Nerd Font glyphs instead of WezTerm's built-in block glyph renderer
