@@ -1,0 +1,8 @@
+README.md
+{{- if ne .chezmoi.os "ios" }}
+**/ghostty*
+{{- end }}
+
+{{- if ne .chezmoi.os "windows"}}
+**/Microsof.PowerShell_profile.ps1
+{{- end}}
