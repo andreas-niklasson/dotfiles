@@ -1,0 +1,6 @@
+{{- if eq chezmoi.os "windows"}}
+[cd]
+	command = "pwsh"
+	args = ["-NoExit"]
+{{- end}}
+
